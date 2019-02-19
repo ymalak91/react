@@ -1,0 +1,27 @@
+h1.main-title {
+    color: $black;
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 0;
+ }
+
+.navbar-toggle {
+    margin-top: 57px;
+    background: transparent;
+    border: 0;
+    span.icon-bar {
+        background: $black;
+        width: 20px;
+        height: 3px;
+        border-radius: 5px;
+        display: block;
+        margin: 4px;
+    }
+}
+
+.logo {
+    margin-top: 8px;
+}

@@ -1,0 +1,156 @@
+.Owner-header {
+    color: $yellow;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: right;
+
+    .points {
+        text-align: center;
+    }
+}
+
+.Owner {
+    background: $white;
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    min-height: 50px;
+
+    .name {
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .badge {
+        background: url("/images/jersey-1.png") no-repeat left transparent;
+        background-size: 25px;
+    }
+}
+
+.Table {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 0;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    line-height: normal;
+    padding: 0 15px;
+
+    .row {
+        border-bottom: 1px solid #c4bb94;
+        padding: 5px;
+    }
+
+    .hakaka {
+        padding-left: 0;
+        text-align: left;
+    }
+}
+
+.owner-container {
+    padding-bottom: 25px;
+
+    .owner-element {
+        margin: 8px 0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+}
+
+.item-0 {
+    .Owner, .event-wrapper, .wide-info-label, .wide-info-data {
+        background: $yellow;
+    }
+
+    .wide-info-label {
+        background: #e6db9a !important;
+    }
+}
+
+.item-1 {
+    .Owner, .event-wrapper, .wide-info-label, .wide-info-data {
+        background: $gray;
+    }
+
+    .wide-info-label {
+        background: #c5c5c5 !important;
+    }
+}
+
+.item-2 {
+    .Owner, .event-wrapper, .wide-info-label, .wide-info-data {
+        background: $light_brown;
+    }
+
+    .wide-info-label {
+        background: #c0a596 !important;
+    }
+}
+
+.main-content-wide {
+    background: $brown;
+    padding-top: 10px;
+
+    .owner-icon-big-wrapper {
+        position: relative;
+        z-index: 99;
+        margin-top: 75px;
+
+        .owner-icon-big {
+            height: 125px;
+            width: 125px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -63px;
+            margin: 0 auto;
+            background: url("/images/badge-gold.png") no-repeat center $brown;
+            background-size: 35px;
+            border-radius: 125px;
+            border: 2px solid #fff;
+        }
+    }
+
+    .WideOwner {
+        position: relative;
+        background: $white;
+        margin: 20px 0;
+        border-radius: 15px;
+        overflow: hidden;
+
+        .Owner {
+            padding-top: 60px;
+
+            .badge {
+                background-size: 60px;
+                height: 110px;
+                background-position: center;
+            }
+
+            .name {
+                font-size: 28px;
+                padding: 20px 5px;
+            }
+        }
+
+        .wide-info-label {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .wide-info-data {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 38px;
+        }
+
+        .Table {
+            padding: 0px 0px;
+        }
+    }
+}
